@@ -4,7 +4,7 @@ import { RetellWebClient } from "retell-client-js-sdk";
 import { Telephone, TelephoneX } from 'react-bootstrap-icons'; // Import the icons you want to use
 import '@fontsource/raleway'; // Defaults to weight 400
 
-const agentId = "agent_3f18514f336d276899bae4bdf0";
+const agentId = "agent_1640b3d335d5d52effc7e13d46";
 const retellWebClient = new RetellWebClient();
 
 const App = () => {
@@ -59,7 +59,7 @@ const App = () => {
 
   async function registerCall(agentId: string): Promise<{ access_token: string }> {
     try {
-      const response = await fetch("https://assistant-backend-m5wn.onrender.com/create-web-call", {
+      const response = await fetch("https://sk-backend-yw5q.onrender.com/create-web-call", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

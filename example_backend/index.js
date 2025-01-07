@@ -30,7 +30,7 @@ app.post('/create-web-call', async (req, res) => {
             payload,
             {
               headers: {
-                'Authorization': `Bearer key_bd0f7d3238de157b967f1f362aec`,  // Ensure 'Bearer' is included before the API key
+                'Authorization': `Bearer key_f904c926296d0d6e1e434af04dfa`,  // Ensure 'Bearer' is included before the API key
                 'Content-Type': 'application/json',
               },
             }
