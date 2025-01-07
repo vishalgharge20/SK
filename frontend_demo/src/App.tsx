@@ -80,7 +80,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{ marginBottom: '50px', fontFamily: 'Raleway, sans-serif' }}>Demo Assistant</h1>
+        <h1 style={{ marginBottom: '50px', fontFamily: 'Raleway, sans-serif' }}>StoveKraft Demo</h1>
         
         {/* Circle Animation with Audio Spectrum */}
         <div className="pulse-container">
